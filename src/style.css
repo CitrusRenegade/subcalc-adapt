@@ -217,7 +217,7 @@ header p {
 }
 
 .price-inputs input[type="number"] {
-    width: 140px;
+    width: 100px;
     padding: 8px 12px;
     border: 2px solid #e1e8ed;
     border-radius: 8px;
@@ -240,7 +240,7 @@ header p {
     font-size: 0.9rem;
     cursor: pointer;
     transition: border-color 0.2s ease;
-    width: 80px;
+    width: 100px;
 }
 
 .price-inputs select:focus {
@@ -326,11 +326,11 @@ header p {
 }
 
 .add-form .price-inputs input[type="number"] {
-    width: 80px;
+    width: 100px;
 }
 
 .add-form .price-inputs select {
-    width: 90px;
+    width: 100px;
 }
 
 .form-actions {
@@ -485,14 +485,14 @@ header p {
     }
 
     .price-inputs input[type="number"] {
-        width: 110px;
+        width: 90px;
         padding: 6px 8px;
         font-size: 1rem;
         text-align: left;
     }
 
     .price-inputs select {
-        width: 70px;
+        width: 90px;
         padding: 6px 8px;
         font-size: 0.85rem;
     }
@@ -534,14 +534,14 @@ header p {
     }
 
     .price-inputs input[type="number"] {
-        width: 100px;
+        width: 80px;
         padding: 4px 6px;
         font-size: 0.95rem;
         text-align: left;
     }
 
     .price-inputs select {
-        width: 65px;
+        width: 80px;
         padding: 4px 6px;
         font-size: 0.8rem;
     }
@@ -598,13 +598,13 @@ header p {
     }
 
     .price-inputs input[type="number"] {
-        width: 120px;
+        width: 100px;
         font-size: 1.05rem;
         text-align: left;
     }
 
     .price-inputs select {
-        width: 75px;
+        width: 100px;
     }
 
     .total-content {
@@ -659,7 +659,7 @@ header p {
     }
 
     .price-inputs input[type="number"] {
-        width: 70px;
+        width: 80px;
     }
 
     .price-inputs select {
