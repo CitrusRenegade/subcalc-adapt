@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор подписок</title>
+    <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Калькулятор подписок</h1>
+            <p>Узнайте, сколько вы тратите на подписки в месяц и год</p>
+        </header>
+
+        <main id="categories-container">
+            <!-- Категории будут загружены динамически -->
+        </main>
+
+        <!-- Фиксированная панель с итоговой суммой -->
+        <div class="total-bar">
+            <div class="total-content">
+                <div class="total-amount">
+                    <div class="monthly-total">
+                        <span class="amount" id="monthly-total">0</span>
+                        <span class="currency">₽/мес</span>
+                    </div>
+                    <div class="yearly-total">
+                        или <span id="yearly-total">0</span> ₽ в год
+                    </div>
+                </div>
+                <div class="total-actions">
+                    <button id="export-btn" class="action-btn">Экспорт</button>
+                    <button id="import-btn" class="action-btn">Импорт</button>
+                    <input type="file" id="import-file" accept=".json" style="display: none;">
+                    <button id="reset-btn" class="action-btn reset">Сброс</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="/src/script.js"></script>
+</body>
+</html>
