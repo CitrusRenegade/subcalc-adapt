@@ -1,5 +1,5 @@
-// Импорт данных категорий
-import { categoriesData as importedCategoriesData } from './data.js';
+// Импорт данных категорий и иконок
+import { categoriesData as importedCategoriesData, serviceIcons } from './data.js';
 
 // Глобальные переменные
 let subscriptions = [];
@@ -48,10 +48,16 @@ function renderCategories() {
                         const priceValue = hasPrice ? service.price : '';
                         const periodValue = service.period || 'month';
 
+                        const iconUrl = serviceIcons[service.name] || '';
+                        const iconHTML = iconUrl ? `<img src="${iconUrl}" alt="${service.name}" class="service-icon" onerror="this.style.display='none'">` : '';
+
                         return `
                             <div class="subscription-item" data-service="${service.name}">
                                 <div class="subscription-main">
-                                    <label for="${serviceId}">${service.name}</label>
+                                    <div class="service-info">
+                                        ${iconHTML}
+                                        <label for="${serviceId}">${service.name}</label>
+                                    </div>
                                     <input type="checkbox" id="${serviceId}">
                                 </div>
                                 <div class="price-inputs">
@@ -247,9 +253,15 @@ function addCustomSubscription(category, name, price, period) {
         const subscriptionElement = document.createElement('div');
         subscriptionElement.className = 'subscription-item custom active';
         subscriptionElement.setAttribute('data-subscription-id', subscriptionId);
+        const iconUrl = serviceIcons[name] || '';
+        const iconHTML = iconUrl ? `<img src="${iconUrl}" alt="${name}" class="service-icon" onerror="this.style.display='none'">` : '';
+
         subscriptionElement.innerHTML = `
             <div class="subscription-main">
-                <label>${name}</label>
+                <div class="service-info">
+                    ${iconHTML}
+                    <label>${name}</label>
+                </div>
                 <input type="checkbox" checked>
                 <button class="delete-btn">×</button>
             </div>
@@ -510,9 +522,15 @@ function restoreCustomSubscription(subscription) {
         const subscriptionElement = document.createElement('div');
         subscriptionElement.className = `subscription-item custom ${subscription.isActive ? 'active' : ''}`;
         subscriptionElement.setAttribute('data-subscription-id', subscription.id);
+        const iconUrl = serviceIcons[subscription.name] || '';
+        const iconHTML = iconUrl ? `<img src="${iconUrl}" alt="${subscription.name}" class="service-icon" onerror="this.style.display='none'">` : '';
+
         subscriptionElement.innerHTML = `
             <div class="subscription-main">
-                <label>${subscription.name}</label>
+                <div class="service-info">
+                    ${iconHTML}
+                    <label>${subscription.name}</label>
+                </div>
                 <input type="checkbox" ${subscription.isActive ? 'checked' : ''}>
                 <button class="delete-btn">×</button>
             </div>
@@ -541,9 +559,15 @@ function restoreCustomSubscription(subscription) {
             const subscriptionElement = document.createElement('div');
             subscriptionElement.className = `subscription-item custom ${subscription.isActive ? 'active' : ''}`;
             subscriptionElement.setAttribute('data-subscription-id', subscription.id);
+            const iconUrl = serviceIcons[subscription.name] || '';
+            const iconHTML = iconUrl ? `<img src="${iconUrl}" alt="${subscription.name}" class="service-icon" onerror="this.style.display='none'">` : '';
+
             subscriptionElement.innerHTML = `
                 <div class="subscription-main">
-                    <label>${subscription.name}</label>
+                    <div class="service-info">
+                        ${iconHTML}
+                        <label>${subscription.name}</label>
+                    </div>
                     <input type="checkbox" ${subscription.isActive ? 'checked' : ''}>
                     <button class="delete-btn">×</button>
                 </div>

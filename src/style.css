@@ -158,6 +158,26 @@ header p {
     position: relative;
 }
 
+/* Контейнер для иконки и названия сервиса */
+.service-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex: 1;
+}
+
+/* Иконка сервиса */
+.service-icon {
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    object-fit: contain;
+    flex-shrink: 0;
+    background: white;
+    border: 1px solid #e1e8ed;
+    padding: 2px;
+}
+
 /* Лейбл */
 .subscription-item label {
     font-weight: 500;
@@ -464,6 +484,11 @@ header p {
         font-size: 0.9rem;
     }
 
+    .service-icon {
+        width: 20px;
+        height: 20px;
+    }
+
     .subscription-item input[type="checkbox"] {
         width: 45px;
         height: 22px;
@@ -510,6 +535,11 @@ header p {
     .subscription-item label {
         margin-right: 8px;
         font-size: 0.85rem;
+    }
+
+    .service-icon {
+        width: 18px;
+        height: 18px;
     }
 
     .subscription-item input[type="checkbox"] {

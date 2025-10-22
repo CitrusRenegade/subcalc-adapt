@@ -1,3 +1,158 @@
+// Маппинг иконок сервисов
+export const serviceIcons = {
+  // Экосистемы
+  "Яндекс Плюс": "https://opis-cdn.tinkoffjournal.ru/mercury/iandeks-plius.yojahnxejeev..png",
+  "Microsoft 365": "https://opis-cdn.tinkoffjournal.ru/mercury/microsoft-365.vpquepihxzig..png",
+  "Apple One": "https://opis-cdn.tinkoffjournal.ru/mercury/apple-one.k0pc9exstmgt..png",
+
+  // Кинотеатры
+  "Иви": "https://opis-cdn.tinkoffjournal.ru/mercury/ivi.p6rd7cdjkcum..png",
+  "Амедиатека": "https://opis-cdn.tinkoffjournal.ru/mercury/amediateka.lrscarikqhjl..png",
+  "Кинопаб": "https://opis-cdn.tinkoffjournal.ru/mercury/kinopab.db9jrfjaj1a4..png",
+  "Okko": "https://opis-cdn.tinkoffjournal.ru/mercury/okko.31fczn8tym0k..png",
+  "Start": "https://opis-cdn.tinkoffjournal.ru/mercury/start.f6ms9elgdxd0..png",
+  "Wink": "https://opis-cdn.tinkoffjournal.ru/mercury/wink.aflk3l0tt8oe..png",
+  "Apple TV+": "https://opis-cdn.tinkoffjournal.ru/mercury/apple-tv.9pqpm15sqvkk..png",
+  "Megogo": "https://opis-cdn.tinkoffjournal.ru/mercury/megogo.48t4ykocvt1i..png",
+  "YouTube Premium": "https://opis-cdn.tinkoffjournal.ru/mercury/youtube-premium.ndo6d4kntrti..png",
+  "Premier One": "https://opis-cdn.tinkoffjournal.ru/mercury/premier-one.b3xcjvjy7pbs..png",
+  "Netflix": "https://opis-cdn.tinkoffjournal.ru/mercury/netflix.ppygowa2v4wy..png",
+
+  // Музыка
+  "Apple Music+": "https://opis-cdn.tinkoffjournal.ru/mercury/apple-music.4sa14fbvgedd..png",
+  "Spotify": "https://opis-cdn.tinkoffjournal.ru/mercury/spotify.xbu4tenpbxqm..png",
+  "VK Музыка": "https://opis-cdn.tinkoffjournal.ru/mercury/vk-muzyka.w2tzkynydqp7..png",
+  "Last.fm": "https://opis-cdn.tinkoffjournal.ru/mercury/last-fm.pnjhmdfk77rw..png",
+  "SoundCloud": "https://opis-cdn.tinkoffjournal.ru/mercury/soundcloud.ssyujjnja97x..png",
+  "Звук": "https://opis-cdn.tinkoffjournal.ru/mercury/sberzvuk.ynwqrt4efjtp..png",
+  "Deezer": "https://opis-cdn.tinkoffjournal.ru/mercury/deezer.qfl2cja0enqp..png",
+  "Castbox": "https://opis-cdn.tinkoffjournal.ru/mercury/castbox.aosggpn46az3..png",
+  "YouTube Music": "https://opis-cdn.tinkoffjournal.ru/mercury/youtube-music.o4t1reblweng..png",
+  "Player FM": "https://opis-cdn.tinkoffjournal.ru/mercury/player-fm.kxz3orgveeqo..png",
+  "МТС Music": "https://opis-cdn.tinkoffjournal.ru/mercury/mts-music.vjt2wlu3fjgo..png",
+
+  // Образование
+  "Duolingo Plus": "https://opis-cdn.tinkoffjournal.ru/mercury/duolingo.yqnw57qej2bw..png",
+  "Arzamas": "https://opis-cdn.tinkoffjournal.ru/mercury/arzamas.pn2pzccbff76..png",
+  "Bang Bang Education": "https://opis-cdn.tinkoffjournal.ru/mercury/bang-bang-education.kiuhragefzat..png",
+  "Epic Growth": "https://opis-cdn.tinkoffjournal.ru/mercury/epic-growth.1jdts0zzpjva..png",
+  "Puzzle English": "https://opis-cdn.tinkoffjournal.ru/mercury/puzzle-english.xoi8olft4xte..png",
+  "Ororo TV": "https://opis-cdn.tinkoffjournal.ru/mercury/ororo-tv.lybhvwaxyn1d..png",
+  "Quizlet": "https://opis-cdn.tinkoffjournal.ru/mercury/quizlet.bio2yepodcgx..png",
+  "Умскул": "https://opis-cdn.tinkoffjournal.ru/mercury/umskul.xajhbwlx3k72..png",
+  "Учи-ру": "https://opis-cdn.tinkoffjournal.ru/mercury/uchi-ru.kg9jrqwkvip5..png",
+  "Фоксфорд": "https://opis-cdn.tinkoffjournal.ru/mercury/foksford.d2qldh7yb0bx..png",
+  "HTML Academy": "https://opis-cdn.tinkoffjournal.ru/mercury/html-academy.rgripjymmrmt..png",
+  "Getcourse": "https://opis-cdn.tinkoffjournal.ru/mercury/getcourse.onxlhsh5oemj..png",
+  "Skyeng": "https://opis-cdn.tinkoffjournal.ru/mercury/skyeng.62wjwfkqrlwq..png",
+  "Тетрика": "https://opis-cdn.tinkoffjournal.ru/mercury/tetrika.07ua3cj9u6er..png",
+
+  // Медиа, блогеры, сообщества
+  "Boosty": "https://opis-cdn.tinkoffjournal.ru/mercury/boosty.rhqzq2wj8ovx..png",
+  "Вастрик-клуб": "https://opis-cdn.tinkoffjournal.ru/mercury/vastrik.wi7cl5vvwvks..png",
+  "Patreon": "https://opis-cdn.tinkoffjournal.ru/mercury/patreon.wmhi3a0ofyqm..png",
+  "РБК": "https://opis-cdn.tinkoffjournal.ru/mercury/rbk.lsp5ugxshmwg..png",
+  "Forbes": "https://opis-cdn.tinkoffjournal.ru/mercury/forbes.yzop4oawhaye..png",
+  "vc.ru": "https://opis-cdn.tinkoffjournal.ru/mercury/vcru.duzfuzay8hme..png",
+
+  // Книги и подкасты
+  "Литрес": "https://opis-cdn.tinkoffjournal.ru/mercury/litres.u7m7wsxy2uzi..png",
+  "Mybook": "https://opis-cdn.tinkoffjournal.ru/mercury/mybook.4qqxp9xwpr4c..png",
+  "Smart Reading": "https://opis-cdn.tinkoffjournal.ru/mercury/smart-reading.a5y0tpah7z4q..png",
+  "Audible": "https://opis-cdn.tinkoffjournal.ru/mercury/audible.bhg4kzmojc8f..png",
+  "МТС-библиотека": "https://opis-cdn.tinkoffjournal.ru/mercury/mts-biblioteka.5du8tnhwspsb..png",
+  "Мегафон-книги": "https://opis-cdn.tinkoffjournal.ru/mercury/megafon-knigi.d5xlrpay10be..png",
+
+  // Покупки, еда
+  "X5-пакет": "https://opis-cdn.tinkoffjournal.ru/mercury/x5-paket.yfnz4ec6jqdh..png",
+  "Ozon Premium": "https://opis-cdn.tinkoffjournal.ru/mercury/ozon-premium.bd94wqhbq8us..png",
+  "Level Kitchen": "https://opis-cdn.tinkoffjournal.ru/mercury/level-kitchen.9rfls4wavu4y..png",
+  "Growfood": "https://opis-cdn.tinkoffjournal.ru/mercury/growfood.hlb2crxbz5c3..png",
+
+  // Игры
+  "Xbox": "https://opis-cdn.tinkoffjournal.ru/mercury/xbox.alwa5bpseu6u..png",
+  "Discord Nitro": "https://opis-cdn.tinkoffjournal.ru/mercury/discord-nitro.babsupd0awhp..png",
+  "Playstation": "https://opis-cdn.tinkoffjournal.ru/mercury/playstation.a28tvq3wubj0..png",
+  "Twitch": "https://opis-cdn.tinkoffjournal.ru/mercury/twitch.cn687bhajofu..png",
+  "Nintendo": "https://opis-cdn.tinkoffjournal.ru/mercury/nintendo.bqhqwpsowmly..png",
+  "Steam": "https://opis-cdn.tinkoffjournal.ru/mercury/steam.6akt963lzzrb..png",
+  "Google Play": "https://opis-cdn.tinkoffjournal.ru/mercury/google-play.0beqaema9muo..png",
+  "Dota Plus": "https://opis-cdn.tinkoffjournal.ru/mercury/dota-plus.rk8zyltvx8qu..png",
+  "Roblox Premium": "https://opis-cdn.tinkoffjournal.ru/mercury/roblox-premium.8eqvp7e6r7so..png",
+
+  // Бизнес и финансы
+  "Халва": "https://opis-cdn.tinkoffjournal.ru/mercury/khalva.a1poor5bhvkx..png",
+  "Дзенмани": "https://opis-cdn.tinkoffjournal.ru/mercury/dzenmani.ev00cjjmyyn6..png",
+  "Точка": "https://opis-cdn.tinkoffjournal.ru/mercury/tochka.4093yjta8bx9..png",
+  "Кнопка": "https://opis-cdn.tinkoffjournal.ru/mercury/knopka.mhtyg9jqd6vz..png",
+
+  // Фитнес и здоровье
+  "Apple Fitness": "https://opis-cdn.tinkoffjournal.ru/mercury/apple-fitness.txjk6svhxvi4..png",
+  "Сбер-здоровье": "https://opis-cdn.tinkoffjournal.ru/mercury/sber-zdorove.prgrlrzxyyjh..png",
+  "Strava": "https://opis-cdn.tinkoffjournal.ru/mercury/strava.8lcaujkdxjie..png",
+  "Fitmost": "https://opis-cdn.tinkoffjournal.ru/mercury/fitmost.cxdfquf1fl7k..png",
+  "Headspace": "https://opis-cdn.tinkoffjournal.ru/mercury/headspace.4jwefniyvxsl..png",
+  "Школа фитнеса Sekta": "https://opis-cdn.tinkoffjournal.ru/mercury/sekta.9xryossz4utu..png",
+
+  // Соцсети
+  "Telegram Premium": "https://opis-cdn.tinkoffjournal.ru/mercury/telegram-premium.erafscmhqh2y..png",
+  "VK Donut": "https://opis-cdn.tinkoffjournal.ru/mercury/vk-donut.zpitdh0mthdr..png",
+  "Одноклассники": "https://opis-cdn.tinkoffjournal.ru/mercury/odnoklassniki.2yq4uu19n1wk..png",
+
+  // Облако, хостинг, VPN
+  "iCloud": "https://opis-cdn.tinkoffjournal.ru/mercury/i-cloud.2a8gps0akcgn..png",
+  "Яндекс Диск": "https://opis-cdn.tinkoffjournal.ru/mercury/yandex-disk.dswhielwsoif..png",
+  "Mail Space": "https://opis-cdn.tinkoffjournal.ru/mercury/mail-ru.77ojgwff5iry..png",
+  "Облако Mail.ru": "https://opis-cdn.tinkoffjournal.ru/mercury/mail-cloud.yx3y3fi1ca2a..png",
+  "Google Drive": "https://opis-cdn.tinkoffjournal.ru/mercury/google-drive.zqnjv2hzkaqa..png",
+  "Dropbox": "https://opis-cdn.tinkoffjournal.ru/mercury/dropbox.iaajomicshwt..png",
+  "Сбердиск": "https://opis-cdn.tinkoffjournal.ru/mercury/sberdisk.aqhffte7jdrt..png",
+  "Яндекс Облако": "https://opis-cdn.tinkoffjournal.ru/mercury/yandex-cloud.uhg2plb4oenu..png",
+  "Digital Ocean": "https://opis-cdn.tinkoffjournal.ru/mercury/digital-ocean.jekkgimmmaju..png",
+  "VPN": "https://opis-cdn.tinkoffjournal.ru/mercury/vpn.hkw3zjtdngmn..png",
+
+  // Для работы
+  "Notion": "https://opis-cdn.tinkoffjournal.ru/mercury/notion.v8eau2k2jj52..png",
+  "ChatGPT": "https://opis-cdn.tinkoffjournal.ru/mercury/chat-gpt.llu86lxbxm5t..png",
+  "Atlassian Jira": "https://opis-cdn.tinkoffjournal.ru/mercury/atlassian-jira.tjq27turzjhi..png",
+  "Zoom": "https://opis-cdn.tinkoffjournal.ru/mercury/zoom.bu30grxolgdj..png",
+  "Trello": "https://opis-cdn.tinkoffjournal.ru/mercury/trello.n2ah2kgpvml1..png",
+  "Miro": "https://opis-cdn.tinkoffjournal.ru/mercury/miro.xma2bxnjomci..png",
+  "Kaiten": "https://opis-cdn.tinkoffjournal.ru/mercury/kaiten.qqlsx76rs9bv..png",
+  "Tilda": "https://opis-cdn.tinkoffjournal.ru/mercury/tilda.dcwkivx47ofx..png",
+  "GitHub": "https://opis-cdn.tinkoffjournal.ru/mercury/github.egazumpuivvw..png",
+  "GitLab": "https://opis-cdn.tinkoffjournal.ru/mercury/gitlab.suk4tlcfvadx..png",
+  "Яндекс 360": "https://opis-cdn.tinkoffjournal.ru/mercury/yandex-360.zcoyszqtjy0f..png",
+  "Adobe Premiere Pro": "https://opis-cdn.tinkoffjournal.ru/mercury/adobe-premier-pro.5qt8qxoiokea..png",
+  "Inshot": "https://opis-cdn.tinkoffjournal.ru/mercury/inshot.niup2vxq8icc..png",
+  "Figma": "https://opis-cdn.tinkoffjournal.ru/mercury/figma.yh8w0izm7uz8..png",
+  "Photoshop CC": "https://opis-cdn.tinkoffjournal.ru/mercury/photoshop-cc.gh3zuskajyub..png",
+  "Adobe Illustrator": "https://opis-cdn.tinkoffjournal.ru/mercury/adobe-illustrator.llpaeewyolow..png",
+  "Todoist": "https://opis-cdn.tinkoffjournal.ru/mercury/todoist.asoifcdnfhkr..png",
+  "Timestripe": "https://opis-cdn.tinkoffjournal.ru/mercury/timestripe.c5bnmm5jazxq..png",
+
+  // Безопасность
+  "Касперский": "https://opis-cdn.tinkoffjournal.ru/mercury/kasperskii.5btv3ux7dzc5..png",
+  "Dr.Web": "https://opis-cdn.tinkoffjournal.ru/mercury/dr-web.mnnrlcan2miy..png",
+  "CCleaner": "https://opis-cdn.tinkoffjournal.ru/mercury/cclean.tewwg58wwozc..png",
+  "Norton": "https://opis-cdn.tinkoffjournal.ru/mercury/norton.wiaa1sebugyc..png",
+  "1Password": "https://opis-cdn.tinkoffjournal.ru/mercury/1password.ihqjwaiyjnck..png",
+  "Avast": "https://opis-cdn.tinkoffjournal.ru/mercury/avast.jsxkeppumroe..png",
+  "Avira": "https://opis-cdn.tinkoffjournal.ru/mercury/avira.xioqulrghdsf..png",
+  "Eset": "https://opis-cdn.tinkoffjournal.ru/mercury/eset.qplcfrsb6r27..png",
+
+  // Другое
+  "Чердак": "https://opis-cdn.tinkoffjournal.ru/mercury/cherdak.the0lv0b5o32..png",
+  "Мой склад": "https://opis-cdn.tinkoffjournal.ru/mercury/moi-sklad.5lg0tgbrzjr3..png",
+  "Whoosh Pass": "https://opis-cdn.tinkoffjournal.ru/mercury/woosh-pass.ssezeibrbrn0..png",
+  "Aviasales": "https://opis-cdn.tinkoffjournal.ru/mercury/aviasales.0ykebkijiv6r..png",
+  "Яндекс Плюс х S7": "https://opis-cdn.tinkoffjournal.ru/mercury/s7-boost.vfhf2eag97bi..png",
+  "Московский паркинг": "https://opis-cdn.tinkoffjournal.ru/mercury/moskovskii-parking.cr2c80y8kj4w..png",
+  "Делимобиль": "https://opis-cdn.tinkoffjournal.ru/mercury/delimobil.uxwpbtlpa98j..png",
+  "LinkedIn": "https://opis-cdn.tinkoffjournal.ru/mercury/linkedin.gxbk96xjljom..png",
+  "Qlean": "https://opis-cdn.tinkoffjournal.ru/mercury/qlean.ojcx1t0oywrx..png"
+};
+
 export const categoriesData = [
   {
     "category": "Экосистемы",
