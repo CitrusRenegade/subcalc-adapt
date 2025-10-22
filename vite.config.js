@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  // base: '/subcalc-adapt/', // Отключено для локальной разработки
+  base: '/subcalc-adapt/',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',

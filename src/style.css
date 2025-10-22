@@ -38,6 +38,24 @@ header p {
     color: #7f8c8d;
 }
 
+.source-note {
+    font-size: 0.9rem !important;
+    color: #95a5a6 !important;
+    margin-top: 10px !important;
+}
+
+.source-note a {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.source-note a:hover {
+    color: #5a6fd8;
+    text-decoration: underline;
+}
+
 /* Категории */
 .category {
     background: white;
